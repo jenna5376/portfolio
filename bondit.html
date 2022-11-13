@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section-1">
+        <div id="header"></div>
+        <div class="project-introduction">
+            <h2 class="h2 project-heading">Bondit</h2>
+            <h6 class="h6 project-heading">UX research • UX design</h6>
+            <img class="content-image" src="images/bondit/bondit-cover-image.png">
+        </div>
+        <div class="spacer"></div>
+        <div class="project-content">
+            <div class="content-block">
+                <h3 class="h3">Introduction</h3>
+                <p class="body-text">
+                    Bondit is a location-based social media app for US college students.
+                    The app aims to promote bonding between college peers through features including
+                    shareable course schedule, course group chat, map, friend discovery feed, and chat.
+                    However, the app provided too many features, and the MAU, DAU, and user retention
+                    remained low. In this study, we set out to understand gen-z trends for bonding to
+                    make the product more useful and engaging for college students.
+                </p>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text-bold">Team</p>
+                        <p class="body-text">1 project leader, 1 UX lead, 14 UX researchers</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text-bold">Role</p>
+                        <p class="body-text">UX researcher, UX designer</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text-bold">Timeline</p>
+                        <p class="body-text">Jan 2022 - May 2022 (five months)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Problem Statement</h3>
+                <p class="body-text">
+                    Bonding can be difficult and awkward for college students--especially
+                    when they are stuck in large lecture halls (or a campusless school like NYU).
+                    Bondit seeks to aid in this process. To achieve this, we aimed to find what
+                    students find overwhelming or lacking about the current iteration of Bondit.
+                    <span class="body-text-bold">
+                        What do college students consider when forming new friendships, and how can
+                        we use this information to increase Bondit’s user retention and acquisition?
+                    </span>
+                </p>
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Competitive Analysis</h3>
+                <p class="body-text">
+                    We conducted competitive analysis on ten social media apps, specifically those targeting college
+                    students,
+                    to understand the role of Bondit within the greater app market.
+                    <br><br>
+                    Apps: Saturn, Poparazzi, GroupMe, Patio, Reddit, Corq, Clubhouse, ZeeMe, LoopChat, TimeTree
+                </p>
+                <img class="content-image" src="images/bondit/competitive-analysis-matrix.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Empathizing with the Users</h3>
+                <h5 class="h5">To understand our users, we conducted over 30 user interviews and 15
+                    cognitive walkthroughs (MIT COUHES approved) on college freshmen and sophomores
+                </h5>
+                <div class="spacer"></div>
+                <p class="body-text-bold">Major Themes</p>
+                <div class="three-cols">
+
+                    <div class="row">
+                        <h3 class="h3">1.</h3>
+                        <p class="body-text">Discovering areas of focus</p>
+                    </div>
+                    <div class="row">
+                        <h3 class="h3">2.</h3>
+                        <p class="body-text">Examining Gen Z trends of bonding with peers</p>
+                    </div>
+                    <div class="row">
+                        <h3 class="h3">3.</h3>
+                        <p class="body-text">Finding ways Bondit can target latent user needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Theme One: Discovering Areas of Focus</h5>
+                <p class="body-text">
+                    To understand our areas of focus, we conducted 10 user interviews about Bondit’s
+                    current frames to identify the pain points. We then performed open coding and
+                    created an affinity diagram to identify key takeaways.
+                </p>
+                <img class="content-image" src="images/bondit/theme-one-ad.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Notable Quotes</h5>
+                <img class="content-image" src="images/bondit/theme-one-quotes.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Key Takeaways</h5>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text">Long login process frustrating to users</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">Privacy concern over location sharing in map feature</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">Unclear app identity due to an overwhelming number of features</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h5 class="h5">User Personas</h5>
+                <p class="body-text">Based on these takeaways, we created two personas based on students from NYU and
+                    UC Berkeley--schools most of our interns were from--to represent Bondit users.
+                    While Jennifer utilizes Bondit to socialize, Raj seeks academic opportunities on
+                    the app.
+                </p>
+                <img class="content-image" src="images/bondit/user-persona-1.png">
+                <img class="content-image" src="images/bondit/user-persona-2.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">User Journeys</h5>
+                <p class="body-text">
+                    We created user journeys based on these two personas to showcase how
+                    Bondit may be used based on differing goals. Jennifer's key features were
+                    map and chat while Raj's key features were course scheduling, chat, and
+                    professor ratings.
+                </p>
+                <img class="content-image" src="images/bondit/user-journey-1.png">
+                <img class="content-image" src="images/bondit/user-journey-2.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Information Architecture</h5>
+                <p class="body-text">
+                    Finally, to determine potential areas of
+                    focus and optimize the flow of the app, we created an information
+                    architecture based on Bondit's key features: course schedule, map,
+                    profile, chat, and professor rating. Through this, we were able to find
+                    a minor bug where friend's profiles did not appear in the profile tab when
+                    filtered by peer.
+                </p>
+                <img class="content-image" src="images/bondit/info-architecture.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Theme Two: Examining Gen Z Trends of Bonding With Peers</h5>
+                <p class="body-text">
+                    We then examined Gen Z trends of bonding with peers
+                    with a focus on social networking. We interviewed 7 participants.
+                </p>
+                <img class="content-image" src="images/bondit/theme-two-ad.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Notable Quotes</h5>
+                <img class="content-image" src="images/bondit/theme-two-quotes.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Key Takeaways</h5>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text">
+                            Users tend to use app friends use due to FOMO (“a lot of my friends use ___”)
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Users like to see what their friends are doing, but can be sensitive about their own privacy
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Users are aware of the limitations of social media and want to connect with others at a more
+                            personal level through features like DM
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Theme Three: Finding Ways Bondit Can Target Latent User Needs</h5>
+                <p class="body-text">
+                    Finally, we found ways Bondit can target latent user needs through two studies.
+                </p>
+            </div>
+            <div class="content-block">
+                <p class="body-text-bold">Study One: </p>
+                <p class="body-text">
+                    <br>
+                    Objectives: <br>
+                    Understanding pain points and needs in regards to college bonding<br>
+                    Identifying social media apps that Gen-Z college students use for
+                    college bonding and why they use the apps<br>
+                    Identifying the pain points and needs in regards to the social
+                    media apps they use for college bonding<br>
+                    <br>
+                    We interviewed 10 people.
+                </p>
+                <img class="content-image" src="images/bondit/three-three-s1-ad.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Notable Quotes</h5>
+                <img class="content-image" src="images/bondit/theme-three-s1-quotes.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Key Takeaways</h5>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text">
+                            Time commitment and different backgrounds most frequently mentioned as pain points for
+                            bonding
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Gen Z students most frequently use features like story and DM
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Similar interests are considered the most important for bonding, even over things like age
+                            and major
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <p class="body-text-bold">Study Two: </p>
+                <p class="body-text">
+                    <br>
+                    Objectives: <br>
+                    Understanding user behavior and needs in regards to the onboarding
+                    feature of social media apps for college bonding<br>
+                    Understanding user behavior and needs in regards to identifying
+                    college peers to bond with within social media apps for college bonding<br>
+                    Understanding user behavior and needs in regards to interacting with college
+                    peers to bond with within social media apps for college bonding <br>
+                    <br>
+                    We conducted cognitive walkthroughs on 15 participants.
+                </p>
+                <img class="content-image" src="images/bondit/theme-three-s2-ad.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Notable Quotes</h5>
+                <img class="content-image" src="images/bondit/theme-three-s2-quotes.png">
+            </div>
+            <div class="content-block">
+                <h5 class="h5">Key Takeaways</h5>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text">
+                            Bondit’s login process is still too long and has minor issues
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Continued dislike concern, over location sharing on map feature
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text">
+                            Various suggestions for board features including filters, rank system
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h3 class="h3">What Happened After...</h3>
+                <p class="body-text">
+                    Bondit is in the process of redesigning their UI based on the
+                    insights from this study. Stay tuned to see them!
+                </p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+    </section>
+    <div id="footer"></div>
+</body>
+
+</html>

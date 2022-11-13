@@ -1,0 +1,38 @@
+<footer id="footer">
+    <div class="jenna">
+        <div class="track">
+            <p id="infinite-text">✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽
+                jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽
+                jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ ✽ jenna han ✽ jenna han
+                ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ </p>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="circle-wrapper">
+        <div class="circle">
+            <div class="logo"></div>
+            <div class="text">
+                <p>Let's Connect - Made With ♥ - </p>
+            </div>
+        </div>
+    </div>
+
+    <ul class="footer-menu">
+        <li class="footer-link link"> <a target="_blank" href="mailto: jenna5376@gmail.com">Email</a> </li>
+        <li class="footer-link link"> <a target="_blank"
+                href="https://www.linkedin.com/in/jenna-han-4b09631b7">LinkedIn</a> </li>
+        <li class="footer-link link"> <a target="_blank" href="https://github.com/jenna5376">GitHub</a> </li>
+        <li class="footer-link link"> <a href="files/Jenna_Han_Resume.pdf" download="jenna_han_resume">Resume</a></li>
+    </ul>
+    <div class="spacer"></div>
+</footer>
+<script>
+    const text = document.querySelector(".text p");
+    text.innerHTML = text.innerText.split("").map(
+        (char, i) =>
+            `<span style = "transform:rotate(${i * 12}deg)">${char}</span>`
+    ).join("")
+
+</script>

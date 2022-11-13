@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!--load fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section-1">
+            <div id="header"></div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+            <div class="headline">
+                <h1 id="headline-text">
+                    Hi! <span><img src="images/wave.png"></span> I'm Jenna Han, a multidisciplinary product designer
+                    <img src="images/pencil.png"> in NYC <img src="images/apple.png">
+                </h1>
+                <div class="spacer"></div>
+
+                <h3 id="subheading-text">
+                    Currently studyings interactive media arts and computer science @ NYU
+                </h3>
+                <img src="images/star.png" class="star">
+                <div class="spacer"></div>
+            </div>
+            <div id="case-studies">
+                <div class="spacer"></div>
+                <div class="case-studies">
+                    <div class="big-card unclickable-card" id="case-studies-card">
+                        <img class="project-image" src="images/cards/case-studies.png">
+                    </div>
+                    <div class="big-card unclickable-card">
+                        <img class="project-image" src="images/cards/esp.png">
+                        <div class="project-info">
+                            <h4 class="project-name">COMING SOON - Equitable Syllabus Project</h4>
+                            <p class="project-description">Research service and database for NYU professors</p>
+                        </div>
+                    </div>
+                    <a class="big-card" href="bondit.html">
+                        <img class="project-image" src="images/cards/bondit.png">
+                        <div class="project-info">
+                            <h4 class="project-name">Bondit</h4>
+                            <p class="project-description">Location-based social media app for college students</p>
+                        </div>
+                    </a>
+
+                    <a class="big-card" href="sparkmania-arcade.html">
+                        <img class="project-image" src="images/cards/sparkmania-arcade.png">
+                        <div class="project-info">
+                            <h4 class="project-name">Sparkmania Arcade</h4>
+                            <p class="project-description">Online arcade with three fun mini-games</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+            </div>
+        </section>
+
+        <div class="jenna">
+            <div class="track">
+                <p id="infinite-text">✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽
+                    jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽
+                    jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ ✽ jenna han ✽ jenna han
+                    ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ jenna han ✽ </p>
+            </div> 
+        </div>
+
+        <section class="section-2">
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+
+            <h2 class="heading" id="other-works">Other Works</h2>
+            <div class="spacer"></div>
+
+            <div class="other-works">
+                <a class="small-card" href="art-and-graphics.html">
+                    <img class="project-image" src="images/cards/art-and-graphics.png">
+                    <div class="project-info">
+                        <h4 class="project-name">Art and Graphics</h4>
+                        <p class="project-description">View some of my visual works here</p>
+                    </div>
+                </a>
+                <a class="small-card" href="pixel-painter.html">
+                    <img class="project-image" src="images/cards/pixel-painter.png">
+                    <div class="project-info">
+                        <h4 class="project-name">Pixel Painter</h4>
+                        <p class="project-description">Pixel art program made with Pygames</p>
+                    </div>
+                </a>
+                <a class="small-card" href="daily-ui.html">
+                    <img class="project-image" src="images/cards/daily-ui.png">
+                    <div class="project-info">
+                        <h4 class="project-name">Daily UI Challenge</h4>
+                        <p class="project-description">Fifteen days of UI practice</p>
+                    </div>
+                </a>
+                <div class="spacer"></div>
+                <div class="spacer"></div> 
+        </section>
+
+        <div id="footer"></div>
+
+    </div> 
+
+</body>
+
+</html>

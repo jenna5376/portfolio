@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="section-1">
+        <div id="header"></div>
+        <div class="project-introduction">
+            <h2 class="h2 project-heading">Sparkmania Arcade</h2>
+            <h6 class="h6 project-heading">UI design • Web development</h6>
+            <img class="content-image" src="images/sparkmania-arcade/sparkmania-arcade-cover-image.png">
+        </div>
+        <div class="spacer"></div>
+        <div class="project-content">
+            <div class="content-block">
+                <h3 class="h3">Introduction</h3>
+                <p class="body-text">
+                    Sparkmania arcade is an online arcade with three mini-games:
+                    wack-a-mole, bread eater, and follow the leader. There are six
+                    different selectable characters and you get a score based on your
+                    performance every round.
+                </p>
+                <div class="three-cols">
+                    <div class="col">
+                        <p class="body-text-bold">Team</p>
+                        <p class="body-text">Jenna Han, Tatiana Jimanez</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text-bold">Role</p>
+                        <p class="body-text">UI designer, Web Developer</p>
+                    </div>
+                    <div class="col">
+                        <p class="body-text-bold">Timeline</p>
+                        <p class="body-text">Nov 2021 - Dec 2021 (one month)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Play the Game Here</h3>
+                <div id = "sparkmania-p5">
+                    <iframe id="sparkmania-arcade-embed"
+                        src="https://editor.p5js.org/jenna5376/full/e1CxxFbvU"></iframe>
+                </div>
+                <div id = "sparkmania-video">
+                    <video width="100%" height="auto" controls>
+                        <source src="videos/sparkmania-arcade.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="spacer"></div>
+                <a href="https://editor.p5js.org/jenna5376/full/e1CxxFbvU" class="body-text underlined-link"
+                    target="_blank">
+                    Open game in a new tab
+                </a>
+                <br>
+                <a href="https://github.com/jenna5376/p5/tree/main/sparkmania%20arcade"
+                    class="body-text underlined-link" target="_blank">
+                    View the full code for the program
+                </a>
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Inspiration</h3>
+                <p class="body-text">
+                    ​We wanted to evoke feelings of nostalgia, excitement, slight
+                    frustration, and fun with this game. As we were Nintendo fans growing up,
+                    we wanted our arcade to have an old, retro-style aesthetic.
+                    <br><br>
+                    We started off by finding some game designs we liked and adding them to our mood board.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/moodboard.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Game Ideas and Breakdown</h3>
+                <p class="body-text">
+                    We came up with some mini-game ideas. We originally wanted the characters
+                    to be controllable by body movements as we thought it would make the game
+                    more engaging for players. Unfortunately, this caused the games to be too
+                    laggy for our devices, but this restriction helped us come up with ideas!
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/game-ideas-1.png">
+                <img class="content-image" src="images/sparkmania-arcade/game-ideas-2.png">
+                <img class="content-image" src="images/sparkmania-arcade/game-ideas-3.png">
+                <p class="body-text">
+                    <br>
+                    We chose the whack a mole, dodging, and follow the leader games. We ended
+                    up replacing the doing game with the bread eater game, which has the same
+                    logic but with different assets. In order to make the coding process easier,
+                    we broke down the games into their logic, and how we may implement them through code.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/game-breakdown.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Organizationn</h3>
+                <p class="body-text">
+                    We created low-fidelity wireframes for each game screen and broke down the assets
+                    we would need to create for each scene.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/game-screens.png">
+                <img class="content-image" src="images/sparkmania-arcade/game-assets.png">
+                <p class="body-text">
+                    <br>
+                    We chose the whack a mole, dodging, and follow the leader games. We ended
+                    up replacing the doing game with the bread eater game, which has the same
+                    logic but with different assets. In order to make the coding process easier,
+                    we broke down the games into their logic, and how we may implement them through code.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/game-breakdown.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Assets</h3>
+                <p class="body-text">
+                    We decided on anthropomorphic animals for the characters. We decided
+                    to give these characters different personalities in order to make the
+                    players more attached to them.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/character-design.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">User Testing</h3>
+                <p class="body-text">
+                    We user-tested our game with other students. The most common feedback
+                    we got was that the game controls were difficult to memorize. In order
+                    to solve this issue, we decided to add controls to the actual game rather
+                    than just the tutorial page for a few seconds. This would give the users
+                    time to familiarize themselves with the game.
+                </p>
+                <img class="content-image" src="images/sparkmania-arcade/user-testing-1.png">
+                <img class="content-image" src="images/sparkmania-arcade/user-testing-2.png">
+            </div>
+            <div class="content-block">
+                <h3 class="h3">Reflection</h3>
+                <p class="body-text">
+                    This was my first large-scale coding project and it was really fun to be
+                    able to create mini-games similar to what I played as a child. We did a
+                    lot of sketching and ideating for the project, and I feel like this made the
+                    actual coding and drawing process a lot easier, and gave the arcade a more
+                    consistent style. We were able to add elements of interactivity to our project by
+                    using a lot of sound effects, animated texts, and animated characters.
+                </p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+    </section>
+    <div id="footer"></div>
+</body>
+
+</html>

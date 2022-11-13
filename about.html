@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="sketch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section-1">
+            <div id="header"></div>
+
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+
+            <div class="about-me-content">
+                <div class="text-section">
+                    <h2 class="heading">Hey there! My name is Jenna Han.</h2>
+                    <div class="spacer"></div>
+                    <p class="body-text"> I’m a product designer based in New York City and I love creating things with
+                        design and code! I’m currently pursuing a bachelor’s degree in Interactive Media Arts and
+                        Computer Science at New York University. I aim to create intuitive designs that put the users’
+                        needs first and have worked as a designer at a tech startup and at NYU. </p>
+                    <br>
+                    <p class="body-text"> <strong> How it all started</strong> </p>
+                    <p class="body-text"> I’ve always struggled to find my “one-true passion.” Growing up, I enjoyed
+                        both art and science and felt pressured to choose one or the other. This was until I discovered
+                        how seamlessly you can combine design and code. I fell in love with how code could make my
+                        static artworks come to life! </p>
+                    <br>
+                    <p class="body-text"> <strong> Combining design and code </strong></p>
+                    <p class="body-text"> Combining design and code allows me to exercise both the creative and logical
+                        sides of my brain. I can break down complex problems into logical and intuitive steps, refine
+                        the design to make it beautiful, and add interactivity and functionality to it through code.
+                        While my primary focus is design, I believe my experience researching, designing, and building
+                        products from start to finish gives me the ability to bridge the gap between users, designers,
+                        and engineers. </p>
+                    <br>
+                    <div id = "fun-facts">
+                        <p class="body-text"> <strong> Some fun facts about me </strong></p>
+                        <ul class="fun-facts">
+                            <li class="fact">
+                                > I lived in 3 different countries (Korea, Japan, USA), including four different states
+                                within the US (MA, CA, NJ, NY)
+                            </li>
+                            <li class="fact">
+                                > I have two dogs and a cat! Their names are Midory, Mickey, and Azerail
+                            </li>
+                            <li class="fact">
+                                > My latest hobby is cooking. My favorite dish I made so far is katsu curry
+                            </li>
+                            <li class="fact">
+                                > I also like makeup, crocheting, and shopping
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+                <div class="image-section-wrapper">
+                    <div class="image-section">
+                        <div id="p5-canvas"></div>
+                        <img id = "selfie" src="images/selfie.png">
+                        <div id = "fun-facts-wrapped">
+                            <img id = "selfie-small" src="images/selfie.png">
+                            <div id = fun-facts-text>
+                                <p class="body-text"> <strong> Some fun facts about me </strong></p>
+                                <ul class="fun-facts">
+                                    <li class="fact">
+                                        > I lived in 3 different countries (Korea, Japan, USA), including four different states
+                                        within the US (MA, CA, NJ, NY)
+                                    </li>
+                                    <li class="fact">
+                                        > I have two dogs and a cat! Their names are Midory, Mickey, and Azerail
+                                    </li>
+                                    <li class="fact">
+                                        > My latest hobby is cooking. My favorite dish I made so far is katsu curry
+                                    </li>
+                                    <li class="fact">
+                                        > I also like makeup, crocheting, and shopping
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id = "resume-download-button">
+                            <a class="resume-download" href="files/Jenna_Han_Resume.pdf"
+                            download="jenna_han_resume">Download My Resume</a>
+                        </div>
+                        <ul class="footer-menu about-links">
+                            <li class="footer-link link"> <a target="_blank"
+                                    href="mailto: jenna5376@gmail.com">Email</a> </li>
+                            <li class="footer-link link"> <a target="_blank"
+                                    href="https://www.linkedin.com/in/jenna-han-4b09631b7">LinkedIn</a> </li>
+                            <li class="footer-link link"> <a target="_blank"
+                                    href="https://github.com/jenna5376">GitHub</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+        </section>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
